@@ -4,11 +4,11 @@
   display: grid;
   grid-template-columns: repeat(4, 200px);
   gap: 50px 48px;
-  margin: 0 auto;
   
   &__position {
     margin: 0 auto;
   }
+  
   &__container {
     width: $cardWidth;
     padding: 0 14px 15px;
