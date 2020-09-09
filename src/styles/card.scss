@@ -1,17 +1,16 @@
 @import "variables.scss";
 
 .card {
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  width: 4 * $cardWidth + 3 * $cardGap;
+  display: grid;
+  grid-template-columns: repeat(4, 200px);
+  gap: 50px 48px;
+  margin: 0 auto;
   
   &__position {
     margin: 0 auto;
   }
   &__container {
     width: $cardWidth;
-    margin-bottom: 50px;
     padding: 0 14px 15px;
     border: 1px solid #f3f3f3;
     box-sizing: border-box;
